@@ -13,12 +13,14 @@ struct ContentView: View {
       Color.red
         .ignoresSafeArea()
       
+      // Takes on the height of the ZStack on line 12.
       GeometryReader { geo in
         VStack(spacing:0) {
           ZStack {
             Rectangle()
               .frame(width: geo.size.width, height: geo.size.height/3)
               .foregroundColor(Color.blue)
+            // Takes on the height of the ZStack on line 19.
             GeometryReader { geo2 in
               VStack {
                 Text("Top Left Text")
