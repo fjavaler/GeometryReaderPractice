@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				F82DEF0C267EA09E001D5CE8 /* GeometryReaderPracticeApp.swift */,
-				F82DEF0E267EA09E001D5CE8 /* ContentView.swift */,
+				F82DEF1A267EC32D001D5CE8 /* Views */,
 				F82DEF10267EA0A0001D5CE8 /* Assets.xcassets */,
 				F82DEF12267EA0A0001D5CE8 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				F82DEF13267EA0A0001D5CE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F82DEF1A267EC32D001D5CE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F82DEF0E267EA09E001D5CE8 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
